@@ -1,1 +1,29 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="ChatPrism_1.css">
+<script src="room.js"></script>        
+    </head>
+
+    <body>
+<div class="container">
+    <button id="logmeout" onclick="Dude()" class="btn btn-danger">Log Me Out</button>
+    <center>
+        <h1 class="h1" >
+            Welcome To ChatPrism Rooms!
+        </h1>
+        <div>
+			<h2>Add Room:</h2>
+<input type="text" placeholder="Ex: #Comedy" id="inputhash">
+		</div>
+		<button class="btn btn-success" onclick="add()">Add Room</button>
+	<div id="output">
+		
+	</div>
+    </center>
+</div>
+    </body>
+</html>

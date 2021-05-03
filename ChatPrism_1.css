@@ -5,6 +5,9 @@ body {
 
 /*I copied this from kwitter project because I was confused*/
 
+.h1 {
+	color: thistle;
+}
 
 html
 {
@@ -37,7 +40,7 @@ html
 }
 
 
-#logout
+#logmeout
 {
 	font-size: 20px; float: right;
 }
