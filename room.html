@@ -4,8 +4,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="ChatPrism_1.css">
-<script src="room.js"></script>        
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" href="ChatPrism_1.css">      
     </head>
 
     <body>
@@ -15,6 +19,9 @@
         <h1 class="h1" >
             Welcome To ChatPrism Rooms!
         </h1>
+        <h3 id="h3" >
+
+        </h3>
         <div>
 			<h2>Add Room:</h2>
 <input type="text" placeholder="Ex: #Comedy" id="inputhash">
@@ -25,5 +32,6 @@
 	</div>
     </center>
 </div>
+<script src="room.js"></script>  
     </body>
 </html>

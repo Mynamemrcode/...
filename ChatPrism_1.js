@@ -1,5 +1,5 @@
-function Addname() {
-    document.getElementById("username").value;
-    localStorage.setItem("username", username);
+ function Addname() {
+  var username = document.getElementById("username").value;
+        localStorage.setItem("username", username);
     window.location = "room.html";
 }
