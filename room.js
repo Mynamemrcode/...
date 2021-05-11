@@ -34,3 +34,13 @@ firebase.initializeApp(firebaseConfig);
      //End code
      });});}
  getData();
+ function redirecttoRoomName(name) {
+  localStorage.setItem("Addroom", name);
+  window.location = "what.html";
+}
+
+ function Logout() {
+  localStorage.removeItem("username");
+  localStorage.removeItem("Addroom");
+  window.location = "index.html";
+}
